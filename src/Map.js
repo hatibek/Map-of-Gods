@@ -2,9 +2,6 @@ import * as React from 'react';
 import { useState } from 'react';
 import ReactMapGL from 'react-map-gl';
 
-const MAPBOX_TOKEN =
-  'pk.eyJ1IjoiaGF0aWJlIiwiYSI6ImNra2VhOTE5NjBhcGcyd281Njc5dWV4bzMifQ.hVtol98lt8seOLJ6gib24w';
-
 export default function Map() {
   const [viewport, setViewport] = useState({
     width: 400,
